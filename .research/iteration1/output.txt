@@ -1,0 +1,87 @@
+=== BDA-DBC Experimental Framework ===
+Starting experiments at 2025-06-11 17:19:08.676488
+
+==================================================
+Starting Experiment 1: Domain Shift Detection and Adaptation Test
+Episode 1, Reward: 11.0
+Episode 2, Reward: 9.0
+Episode 3, Reward: 10.0
+Episode 4, Reward: 9.0
+Episode 5, Reward: 9.0
+Episode 6, Reward: 9.0
+Episode 7, Reward: 11.0
+Episode 8, Reward: 10.0
+Episode 9, Reward: 8.0
+Episode 10, Reward: 9.0
+Episode 11, Reward: 8.0
+Episode 12, Reward: 9.0
+Episode 13, Reward: 11.0
+Episode 14, Reward: 8.0
+Episode 15, Reward: 10.0
+Episode 16, Reward: 10.0
+Episode 17, Reward: 8.0
+Episode 18, Reward: 8.0
+Episode 19, Reward: 9.0
+Episode 20, Reward: 10.0
+Episode 21, Reward: 9.0
+Episode 22, Reward: 10.0
+Episode 23, Reward: 10.0
+Episode 24, Reward: 9.0
+Episode 25, Reward: 9.0
+Episode 26, Reward: 9.0
+Episode 27, Reward: 10.0
+Episode 28, Reward: 10.0
+Episode 29, Reward: 10.0
+Episode 30, Reward: 10.0
+Episode 31, Reward: 9.0
+Episode 32, Reward: 10.0
+Episode 33, Reward: 10.0
+Episode 34, Reward: 10.0
+Episode 35, Reward: 10.0
+Episode 36, Reward: 9.0
+Episode 37, Reward: 9.0
+Episode 38, Reward: 9.0
+Episode 39, Reward: 9.0
+Episode 40, Reward: 8.0
+Episode 41, Reward: 9.0
+Episode 42, Reward: 8.0
+Episode 43, Reward: 9.0
+Episode 44, Reward: 9.0
+Episode 45, Reward: 11.0
+Episode 46, Reward: 8.0
+Episode 47, Reward: 8.0
+Episode 48, Reward: 9.0
+Episode 49, Reward: 10.0
+Episode 50, Reward: 10.0
+Experiment 1 finished. Plots saved as performance_domain_shift.pdf and uncertainty_domain_shift.pdf.
+
+
+==================================================
+Starting Experiment 2: Online Bayesian Update Efficiency
+Iteration 1: Bayesian Update Loss=0.4848, Time=0.0019 sec; Full Retraining Loss=0.4352, Time=0.0019 sec
+Iteration 2: Bayesian Update Loss=0.3367, Time=0.0011 sec; Full Retraining Loss=0.3207, Time=0.0018 sec
+Iteration 3: Bayesian Update Loss=0.2807, Time=0.0011 sec; Full Retraining Loss=0.2690, Time=0.0019 sec
+Iteration 4: Bayesian Update Loss=0.3113, Time=0.0011 sec; Full Retraining Loss=0.2962, Time=0.0019 sec
+Iteration 5: Bayesian Update Loss=0.2532, Time=0.0011 sec; Full Retraining Loss=0.2485, Time=0.0019 sec
+Iteration 6: Bayesian Update Loss=0.2515, Time=0.0011 sec; Full Retraining Loss=0.2503, Time=0.0018 sec
+Iteration 7: Bayesian Update Loss=0.2410, Time=0.0012 sec; Full Retraining Loss=0.2363, Time=0.0019 sec
+Iteration 8: Bayesian Update Loss=0.2400, Time=0.0011 sec; Full Retraining Loss=0.2308, Time=0.0018 sec
+Iteration 9: Bayesian Update Loss=0.2297, Time=0.0012 sec; Full Retraining Loss=0.2118, Time=0.0018 sec
+Iteration 10: Bayesian Update Loss=0.2193, Time=0.0011 sec; Full Retraining Loss=0.2048, Time=0.0018 sec
+Experiment 2 finished. Plots saved as inference_latency_online_update.pdf and training_loss_online_update.pdf.
+
+
+==================================================
+Starting Experiment 3: Ablation Study on Bayesian Regularization and Steering Module
+Full Variant: Normal Domain Reward = 116.40, Domain Shift Reward = 119.00
+No Steering Variant: Normal Domain Reward = 111.40, Domain Shift Reward = 114.00
+No Bayesian Variant: Normal Domain Reward = 127.80, Domain Shift Reward = 113.20
+Full variant average uncertainty: 0.3712
+No Steering variant average uncertainty: 0.0380
+No Bayesian variant average uncertainty: 0.1630
+Experiment 3 finished. Plot saved as evaluation_ablation.pdf.
+
+
+==================================================
+All experiments completed successfully!
+Status set to 'stopped' and saved to research_history.json
